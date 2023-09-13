@@ -71,15 +71,37 @@ IF/ ELSE --------------------------------
 
 
 ~~~~~~~~~~~~~~
-> EX: IRA IMPRIMIR NA TELA "DIFERENTE"
-> POIS AS VARIÁVEIS NN SÃO IGUAIS 
-> ( != ) DIFERENTE
+ > EX: IRA IMPRIMIR NA TELA "DIFERENTE"
+ > POIS AS VARIÁVEIS NN SÃO IGUAIS 
+ > ( != ) DIFERENTE 
 
-> $a = 8;
-> $b = 5; 
->  if($a != $b){
->      echo "diferente<br>";
->    }
+ > $a = 8;
+ > $b = 5; 
+ >  if($a != $b){
+ >      echo "diferente<br>";
+ >    }
 ~~~~~~~~~~~~~~~~
+BREAK ----------------------------
+ PULAR CASES 
+
+ESTRUTURAS DE REPETIÇÃO ----------------
+ ( WHILE ) = ESTRUTURA DE REPETIÇÃO
+ GERALMENTE NECESSÁRIO UM CONTADOR PARA ATINGIR A CONDIÇÃO 
+ 
+ >EX:  while(condicao){
+ > codigo 
+ > }
+
+ >EX: 
+ > $x = 0;
+ > while($x < 10){
+ >   echo $x . "<br>";
+ > $x = $x + 1;
+ > }
+
+
+
+
+
 */
 ?>
