@@ -111,7 +111,7 @@ ESTRUTURAS DE REPETIÇÃO ----------------
  >   echo $x . "<br>";
  > $x = $x + 1;
  > }
-
+ 
 CONTINUE -------------------
  PULA A EXECUÇÃO
  QUANDO O INTERPRETADOR ENCONTRA ESSA INSTRUÇÃO, A PROXIMA ETAPA DO LOOP 
