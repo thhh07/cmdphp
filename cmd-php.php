@@ -112,9 +112,29 @@ ESTRUTURAS DE REPETIÇÃO ----------------
  > $x = $x + 1;
  > }
 
+CONTINUE -------------------
+ PULA A EXECUÇÃO
+ QUANDO O INTERPRETADOR ENCONTRA ESSA INSTRUÇÃO, A PROXIMA ETAPA DO LOOP 
+ E EXECUTADA 
+ APLICADO DENTRO DE UMA ESTRUTURA DE CONDIÇÃOES 
 
+EXERCÍCIO 29
+ - CRIAR UM ARRAY COM VALORES DE 10 A 100, COM INCREMENTO DE 10
+ - APLICAR UM LOOP NO ARRAY 
+ - QUANDO CHEGAR NOS VALORES 20 OU 40 PULAR PARA A PRÓXIMA EXECUÇÃO 
 
-
+ RESOLUÇÃO: 
+ > $arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+ > $i = 0;
+ > $numeroatual = $arr[$i];
+ > wile($i < count($arr)){
+ > if($numeroatual == 30 || $numeroatual == 40) {
+ > $i++;
+ > continue;
+ > }
+ > echo "elementos $numeroatual <br>";
+ > $i++;
+ > }
 
 */
 
