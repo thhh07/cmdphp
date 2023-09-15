@@ -111,8 +111,17 @@ ESTRUTURAS DE REPETIÇÃO ----------------
  >   echo $x . "<br>";
  > $x = $x + 1;
  > }
+
+DO WHILE -----------------------
+ ESTRUTURAS DE REPETIÇÃO 
+ ESTRUTURA INVERTIDA
  
-CONTINUE -------------------
+ > EX:
+ > do {
+ > codigo
+ > } whilre(condicao);
+ 
+ CONTINUE -------------------
  PULA A EXECUÇÃO
  QUANDO O INTERPRETADOR ENCONTRA ESSA INSTRUÇÃO, A PROXIMA ETAPA DO LOOP 
  E EXECUTADA 
