@@ -120,6 +120,10 @@ DO WHILE -----------------------
  > do {
  > codigo
  > } whilre(condicao);
+
+FOR ----------------------
+ ESTRUTURA DE REPETIÇÃO MAIS USADA
+ SINTAXE MAIS ORGANIZADA
  
  CONTINUE -------------------
  PULA A EXECUÇÃO
