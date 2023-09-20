@@ -124,6 +124,10 @@ DO WHILE -----------------------
 FOR ----------------------
  ESTRUTURA DE REPETIÇÃO MAIS USADA
  SINTAXE MAIS ORGANIZADA
+
+LOOP INFINITO --------------------
+ ERRO QUE PODE OCASIONAR QUANDO NÃO TEM CONDIÇÃO DE TÉRMINO
+ 
  
  CONTINUE -------------------
  PULA A EXECUÇÃO
@@ -131,7 +135,7 @@ FOR ----------------------
  E EXECUTADA 
  APLICADO DENTRO DE UMA ESTRUTURA DE CONDIÇÃOES 
 
-EXERCÍCIO 29
+EXERCÍCIO 29 \\\\\\\\\\\\\\\\\\\
  - CRIAR UM ARRAY COM VALORES DE 10 A 100, COM INCREMENTO DE 10
  - APLICAR UM LOOP NO ARRAY 
  - QUANDO CHEGAR NOS VALORES 20 OU 40 PULAR PARA A PRÓXIMA EXECUÇÃO 
@@ -149,6 +153,38 @@ EXERCÍCIO 29
  > $i++;
  > }
 
-*/
+EXERCÍCIO 30b \\\\\\\\\\\\\\\\\\
+ - CRIAR UM ARRAY DE 1 A 10
+ - UTILIZE UM LOOP PARA CRIAR O ARRAY
+ - PODE USAR O METODO array_push(arr, elemento) PARA INSERIR ELEMENTOS NO ARRAY 
+ - IMPRIMA UM ARRAY COM print_r;
+
+ RESOLUÇÃO:
+ > $arr = [];
+ > for($i = 1; $i <=10; $i++) {
+ > array_push($arr, $i);
+ > }
+ > print_r($arr);
+ 
+EXERCÍCIO 30c: \\\\\\\\\\\\\\\\\
+ - CRIAR ARRAY DE 10 A 20 COM FOR
+ - FAÇA UM LOOP EM CIMA DO ARRAY CRIADO DINAMICAMENTE 
+ - IMPRIMA APENAS OS NÚMEROS IMPARES 
+
+  RESOLUÇÃO:
+ > $arr = [];
+ > for($i = 10; $i <=20; $i++) {
+ > array_push($arr, $i);
+ > }
+ > print_r($arr);
+ > FOR($i = 0; $i < count($arr); $i++) {
+ >   if($arr[$i] % 2 != 0) {
+ >    echo "numero ímpar: $arr[$i]" <br>";
+ >   }
+ > }
+
+
+
+ */
 
 ?>
