@@ -127,13 +127,36 @@ FOR ----------------------
 
 LOOP INFINITO --------------------
  ERRO QUE PODE OCASIONAR QUANDO NÃO TEM CONDIÇÃO DE TÉRMINO
+ PODE TRAVAR A MAQUINA
+ > EX:
+ > for($i = 0: $i < 10; $i--) {
+ > echo "teste <br>;
+ > }
+
+FOREACH ----------------------------
+ ESTRUTURA DE REPETIÇÃO
+ E ORIENTADA POR UM ARRAY 
+
+ > EX:
+ > foreach($array as $item) {
+ > codigo
+ > }
  
- 
- CONTINUE -------------------
+CONTINUE -------------------
  PULA A EXECUÇÃO
  QUANDO O INTERPRETADOR ENCONTRA ESSA INSTRUÇÃO, A PROXIMA ETAPA DO LOOP 
  E EXECUTADA 
  APLICADO DENTRO DE UMA ESTRUTURA DE CONDIÇÃOES 
+
+INCLUDE -------------------
+ IMPORTANTE 
+ INSERIMOS UM ARQUIVO DE PHP, OU ATÁ MESMO UM HTML
+ ASSIM PODEMOS USAR TUDO QUE FOI DECLARADO NO ARQUIVO
+
+ > EX: include "arquivo.ext" 
+
+
+
 
 EXERCÍCIO 29 \\\\\\\\\\\\\\\\\\\
  - CRIAR UM ARRAY COM VALORES DE 10 A 100, COM INCREMENTO DE 10
