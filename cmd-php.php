@@ -174,7 +174,23 @@ SHORT TAGS ---------------------------
  DEPENDE DE UMA CONFIG GO SERVIDOR 
  CÓDIGO PODE NÃO FUNCIONAR 
 
- >EX: <? echo "teste";?>
+ > EX: <? echo "teste";?>
+
+EXIBIÇÃO DE CONTEÚDO ----------------
+ APENAS PARA EXIBIÇÃO DE VALOR 
+
+ > EX: <?= "teste";?> 
+
+ > EX: dentro do HTML 
+ > <div>
+ >  <input typr="text" value="<?$nome; ?>">
+ > </div>
+
+PHP NO HTML -------------------
+ PRINCIPAIS FUNCIONALIDADE PHP
+ AS EXTENSÕES PODEM SER .php OU .phtml 
+ 
+ > EX: <h1><?= $titulo ?></h1>
 
 
 
